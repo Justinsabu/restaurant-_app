@@ -1,0 +1,21 @@
+        RESTAURANT LISTING APP
+
+
+1 create a project - npx create-react-app restaurantapp
+2 cd restaurantapp
+3 code .
+4 in vs code terminal - npm start
+5 remove unwanted files
+6 install react bootstrap - npm i react-bootstrap bootstrap
+7 select template from bootstrap
+8 create components -Header and Footer
+9 create Home component -restlist (complete array of data from restaurant.json)
+10 create a component -displaying array of data -Restcard(displaying array of data as a card format)
+11 redirection - view a restaurant
+12 create a component -Viewrest
+13 install react router dom - npm i --save react-router-dom
+        import into app.json
+        import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+    Route-For setup path for a component
+    Routes-For holding all route path tag
+    Router - For holding Routes
