@@ -19,3 +19,16 @@
     Route-For setup path for a component
     Routes-For holding all route path tag
     Router - For holding Routes
+
+14 useParams (hooks)-Retruns an object of key pairs of dynamic params from the current URL that were match
+15 create a component- Restop -for displaying the opening time
+16 create a component-Restview - for displaying the reviews and comments
+
+REDUX-To manage state , inorder to avoid props drilling
+
+17 install Redux library - npm i redux react-redux redux-thunk 
+        1 create a store file -src/store.js - for hold updated states
+        2 create Action -src/actions/restAction.js-(logic to fetch data from API)
+                1 To fetch data here we use axios -npm i axios
+        3 create constants -create folder -src/constants/restconstant.js
+        4.create reducer folder src/reducers/restReducer.js
